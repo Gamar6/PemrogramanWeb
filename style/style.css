@@ -1,9 +1,11 @@
+ * {
+  font-family: 'Poppins';
+ }
  html {
   scroll-behavior: smooth;
  }
  
  body {
-    font-family: 'poppins';
     margin: 0;
     padding: 0;
     display: flex;
@@ -14,10 +16,10 @@
   }
 
 nav {
-    width: 100%;                    /* ⬅️ Biar full selebar layar */
-    background-color: #183B4E;      /* Warna navbar */
+    width: 100%;                   
+    background-color: #183B4E;      
     padding: 5px 0;
-    position: fixed;                /* Biar nempel di atas */
+    position: fixed;             
     top: 0;
     left: 0;
     z-index: 999;   
@@ -25,7 +27,7 @@ nav {
   
   ul {
     display: flex;
-    flex-direction: row;      /* tetap horizontal */
+    flex-direction: row;    
     list-style: none;
     padding: 0;
     padding-left: 10px;
@@ -73,6 +75,14 @@ main {
   opacity: 0;
   animation: fadeIn 2s ease-in-out forwards;
 }
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 19px;
+}
+
 
 .fade-in {
   opacity: 0;

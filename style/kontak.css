@@ -1,0 +1,173 @@
+* {
+  font-family: 'Poppins';
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+body {
+  background-image: url('/img/andy-spark-WdO8GRSUm6U-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar Styles */
+header {
+  background-color: #003B46;
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  background-color: #183B4E;
+  padding: 5px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  padding-left: 10px;
+  margin: 0;
+  justify-content: left;
+}
+
+li a {
+  display: block;
+  padding: 14px 16px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+li a:hover {
+  color: #DDA853;
+}
+
+/* Responsive Navigation */
+@media (max-width: 768px) {
+  nav {
+      flex-direction: column;
+      padding: 10px 0;
+  }
+
+  ul {
+      flex-direction: column;
+      gap: 15px;
+      padding-left: 0;
+      margin: 0;
+  }
+
+  li a {
+      text-align: left;
+      padding: 16px 20px;
+      font-size: 18px;
+  }
+}
+
+/* Contact Section */
+.pesan {
+  margin: 50px auto;
+  margin-top: 150px;
+  max-width: 1000px;
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.isi {
+  background-color: #00acc1;
+  color: white;
+  padding: 40px;
+  width: 50%;
+}
+
+.masuk {
+  padding: 40px;
+  width: 50%;
+}
+
+.masuk input,
+.masuk textarea {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  resize: none;
+}
+
+.masuk button {
+  background-color: #00acc1;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.kontak {
+  text-align: center;
+  color: white;
+  margin-top: 50px;    
+  padding: 0;
+  min-height: 150px;
+  padding-top: 80px;  /* Menambahkan padding-top untuk memberi jarak dari navbar */
+}
+
+.kontak p {
+  margin-top: 150px;
+  margin-bottom: 15px;
+}
+
+.kontak_1 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.kontak_1 a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 19px;
+}
+
+@media (max-width: 415px) {
+  .pesan {
+      flex-direction: column;
+  }
+
+  .isi {
+      display: none;
+  }
+
+  .masuk {
+      width: 100%;
+  }
+
+  .kontak {
+      flex-direction: column;
+      align-items: center;
+      padding: 0 20px;  /* Better padding for small screens */
+  }
+}
