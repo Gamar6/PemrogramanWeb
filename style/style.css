@@ -97,7 +97,7 @@ footer{
     opacity: 1;
   }
 }
-/* Responsive Typography & Layout */
+
 
 
 @media (max-width: 1024px) {
@@ -162,4 +162,3 @@ footer{
     padding: 40px 20px;
   }
 }
-

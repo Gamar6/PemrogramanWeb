@@ -13,10 +13,10 @@ html {
     }
   
   nav {
-    width: 100%;                    /* ⬅️ Biar full selebar layar */
-    background-color: #183B4E;      /* Warna navbar */
+    width: 100%;                  
+    background-color: #183B4E;   
     padding: 5px 0;
-    position: fixed;                /* Biar nempel di atas */
+    position: fixed;              
     top: 0;
     left: 0;
     z-index: 999;   
@@ -24,7 +24,7 @@ html {
   
   ul {
     display: flex;
-    flex-direction: row;      /* tetap horizontal */
+    flex-direction: row;   
     list-style: none;
     padding: 0;
     padding-left: 10px;
@@ -51,7 +51,7 @@ html {
     margin: auto;
     margin-top: 20px;
     width: fit-content;
-    border-collapse: collapse; /* ⚡️ ini penting */
+    border-collapse: collapse; 
     border: 1px solid black;
     align-items: center;
   }
@@ -94,7 +94,7 @@ html {
 
   
 
-  /* Tablet (max-width: 1024px) */
+ 
 @media (max-width: 1024px) {
   .gambar1 {
     width: 180px;
@@ -105,7 +105,7 @@ html {
   }
 }
 
-/* Handphone menengah (max-width: 768px) */
+
 @media (max-width: 768px) {
   .flex {
     justify-content: center;
@@ -113,7 +113,7 @@ html {
   }
 
   .container {
-    width: 45%; /* 2 item per baris */
+    width: 45%;
     padding: 8px;
   }
 
@@ -133,7 +133,6 @@ html {
   }
 }
 
-/* Handphone kecil (max-width: 480px) */
 @media (max-width: 480px) {
   .flex {
     flex-direction: column;
@@ -141,7 +140,7 @@ html {
   }
 
   .container {
-    width: 90%; /* 1 item per baris */
+    width: 90%; 
   }
 
   .gambar1 {
@@ -153,27 +152,6 @@ html {
     padding: 3px;
   }
 }
-
-/* @media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-    align-items: flex-start;
-    background-color: #183B4E;
-    padding-left: 20px;
-  }
-
-  li a {
-    padding: 12px 10px;
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 480px) {
-  li a {
-    font-size: 14px;
-    padding: 10px;
-  }
-} */
 
 @media (max-width: 768px) {
   ul {
